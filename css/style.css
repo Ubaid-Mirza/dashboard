@@ -1,0 +1,182 @@
+.aside{
+    background: linear-gradient(to bottom, #ff6666 0%, #ff6600 100%);
+    color: white;
+    
+    max-width: 320px !important;
+    
+}
+.header{
+    background: linear-gradient(to bottom, #660033 0%, #ff0000 100%);
+    max-width: 320px !important;
+    border-top-left-radius: 30px;
+}
+.wrapper{
+    padding: 0px;
+    background-color: blanchedalmond;
+}
+.bounce-top {
+	-webkit-animation: bounce-top 0.9s both;
+	        animation: bounce-top 0.9s both;
+}
+@-webkit-keyframes bounce-top {
+    0% {
+      -webkit-transform: translateY(-45px);
+              transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    65% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+              transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  @keyframes bounce-top {
+    0% {
+      -webkit-transform: translateY(-45px);
+              transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    65% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+              transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  
+
+.btn:focus{
+    box-shadow: none;
+}
+.fa{
+    font-size: 25px !important;
+    color: white;
+}
+
+.fa-chevron-right{
+    font-size: 15px !important;
+    transform: translateY(0%) rotate(90deg);
+}
+.fa-chevron-right:hover{
+    color:#ff0000;
+    
+}
+
+.das{
+    font-size: 26px;
+}
+.list-one{
+    list-style-type: none;
+}
+.nav-link{
+    color: black;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+
+.btn-mid{
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    border: 0px transparent;
+}
+.btn-mid:hover{
+    color:#ff0000;
+    border-right: 3px solid black;
+
+}
+
+.sub-list{
+    background: linear-gradient(to bottom, #ff6666 0%, #ff6600 100%);
+    
+}
+
+.sub{
+    color: black;
+    font-weight: bolder;
+    background: linear-gradient(to bottom, #ff6666 0%, #ff6600 100%);
+    font-size: 12px;
+}
+.dropdown-menu{
+    
+}
